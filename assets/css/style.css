@@ -20,7 +20,7 @@ html, body {
   /* .push must be the same height as footer */
     height: 60px; 
     }
-    
+
 /* .site-footer {
   background: #666666;
   text-align: center ;
@@ -34,13 +34,22 @@ html, body {
 
 
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
-.site-teal{
-        color: #4aaaa5;
+.site-teal-background-text{
+        background-color: #4aaaa5;
+        color: white;
+        text-align: center;
         }
+
+h2{
+    color: #4aaaa5;
+
+}
+
 /*Regular font color (used for paragraphs and all text besides the headings): #777777*/
 
-.site-font-color{
-    color:#777777;
+p,div{
+
+    color: #777777;
 }
 /*
 Main header background color: #ffffff
@@ -68,23 +77,54 @@ Footer background color: #666666
 
     background-color: #666666;
     text-align: center ;
+    border-top: 8px solid #4aaaa5;
 }
 
+/* Formats in general for div container. */
+div {
+    background-color: white;
+    width: 960px;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:auto;
+    line-height: 2;
+  }
 
+  #container-texture {
+    background-image: url(assets/images/fishnets-and-hearts/fishnets-and-hearts.png);
+    background-origin:border-box;
+    background-position: right bottom;
+    background-repeat: repeat;
+    padding: 15px;
+  }  
+/* Formats for images. */
+  img{
+    float: left;
+    padding: 10px;
 
-
+}
 /*Fonts:*/
 
 /*For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;*/
 
+h1,h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 /*For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
 
+p,div{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 
 
-/*Profile image in index.html:*/
-
-/*Use a picture of yourself.*/
 
 
 
