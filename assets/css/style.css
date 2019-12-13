@@ -1,0 +1,110 @@
+/* Start code adapted based on mostly: http://ryanfait.com/sticky-footer/ */
+
+* {
+    margin: 0;
+    }
+html, body {
+    height: 100%;
+    }
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -60px; 
+    }
+    .page-wrap:after {
+        content: "";
+        display: block;
+    }
+
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 60px; 
+    }
+    
+/* .site-footer {
+  background: #666666;
+  text-align: center ;
+    } */
+.header {
+    text-align: center;
+    background: #ffffff;
+    color: white;
+    margin: 0 auto 0 auto;}
+/* End code adapted based on mostly: http://ryanfait.com/sticky-footer/ */    
+
+
+/* Teal color (used for headings and backgrounds): #4aaaa5*/
+.site-teal{
+        color: #4aaaa5;
+        }
+/*Regular font color (used for paragraphs and all text besides the headings): #777777*/
+
+.site-font-color{
+    color:#777777;
+}
+/*
+Main header background color: #ffffff
+Main header border color: #cccccc
+*/
+.site-header-formats{
+        background-color: #ffffff;
+
+}
+
+/*
+Main content background color: #ffffff
+Main content border color: #dddddd
+*/
+.site-content-formats{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    
+}
+/*
+Footer background color: #666666
+*/
+
+.site-footer-formats{
+
+    background-color: #666666;
+    text-align: center ;
+}
+
+
+
+
+/*Fonts:*/
+
+/*For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;*/
+
+/*For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+
+
+
+
+/*Profile image in index.html:*/
+
+/*Use a picture of yourself.*/
+
+
+
+/*Portfolio images:*/
+
+/*Save the images to your images folder.*/
+
+
+
+/*Background images:*/
+
+/*The background pattern used was found on Subtle Patterns. You can browse through that site and use whichever pattern you like.*/
+
+
+
+/*Dimensions:*/
+
+/*The entire content and the main section content area is 960px wide.*/
+    
+    
+    
+    
+    
