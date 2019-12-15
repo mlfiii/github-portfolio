@@ -1,0 +1,158 @@
+/* Start code adapted based on mostly: http://ryanfait.com/sticky-footer/ */
+
+* {
+    margin: 0;
+    }
+html, body {
+    height: 100%;
+    width:100%;
+    }
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -60px; 
+  
+  
+    }
+
+
+
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 60px; 
+    }
+
+/* .site-footer {
+  background: #666666;
+  text-align: center ;
+    } */
+.header {
+    text-align: center;
+    background: #ffffff;
+    color: white;
+    margin: 0 auto 0 auto;
+    width: 960px;
+}
+    
+/* End code adapted based on mostly: http://ryanfait.com/sticky-footer/ */    
+
+
+/* Teal color (used for headings and backgrounds): #4aaaa5*/
+.site-teal-background-text{
+        background-color: #4aaaa5;
+        color: white;
+        text-align: center;
+        }
+
+h2{
+    color: #4aaaa5;
+
+}
+
+/*Regular font color (used for paragraphs and all text besides the headings): #777777*/
+
+p,div{
+
+    color: #777777;
+}
+/*
+Main header background color: #ffffff
+Main header border color: #cccccc
+*/
+.site-header-formats{
+        background-color: #ffffff;
+
+}
+
+/*
+Main content background color: #ffffff
+Main content border color: #dddddd
+*/
+.site-content-formats{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    
+}
+/*
+Footer background color: #666666
+*/
+
+.site-footer-formats{
+
+    background-color: #666666;
+    text-align: center ;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* Formats in general for div container. */
+div {
+    background-color: white;
+    width: 960px;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:auto;
+    line-height: 2;
+  }
+
+  .site-backgound {
+   background-image: url("/assets/images/fishnets-and-hearts/fishnets-and-hearts.png");
+   background-origin:border-box;
+   background-position: right bottom;
+   background-repeat: repeat;
+
+  }  
+/* Formats for images. */
+  img{
+    float: left;
+    padding: 10px;
+
+}
+/*Fonts:*/
+
+/*For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;*/
+
+h1,h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/*For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+
+p,div{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+div{}
+.red-background{
+
+    background-color: red;
+    width: 100%;
+}
+
+
+
+/*Portfolio images:*/
+
+/*Save the images to your images folder.*/
+
+
+
+/*Background images:*/
+
+/*The background pattern used was found on Subtle Patterns. You can browse through that site and use whichever pattern you like.*/
+
+
+
+/*Dimensions:*/
+
+/*The entire content and the main section content area is 960px wide.*/
+    
+    
+    
+    
+    
