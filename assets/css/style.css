@@ -7,6 +7,15 @@ html, body {
     height: 100%;
     width:100%;
     } 
+    /* .page-wrap {
+        min-height: 100%;
+
+        margin-bottom: -40px; 
+      }    */
+      /* .page-wrap:after {
+        content: "";
+        display: block;
+      } */
 /*Header items*/
 .header{
     /*Main header background color: #ffffff*/
@@ -59,7 +68,7 @@ html, body {
     /*The entire content and the main section content area is 960px wide.*/
     width: 960px;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 250px;
     padding-right: 250px; 
     /*Main content border color: #dddddd*/
@@ -97,7 +106,7 @@ html, body {
     padding-top: 35px;
     padding-left: 250px;
     padding-right: 250px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
 }
