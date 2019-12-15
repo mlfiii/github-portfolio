@@ -55,7 +55,7 @@ html, body {
     padding-top: 50px;
     padding-left: 250px;
     padding-right: 250px; 
-    border-top: solid silver;
+    border-top: solid #dddddd;
     border-top-width: 1px;
 }
 
