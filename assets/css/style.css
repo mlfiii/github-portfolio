@@ -1,27 +1,18 @@
-/* Start code adapted based on mostly: http://ryanfait.com/sticky-footer/ */
+/* Some code adapted based on mostly: http://ryanfait.com/sticky-footer/ */
 
-/* * {
+ /* * {
     margin: 0;
-    }
+    } */
 html, body {
     height: 100%;
     width:100%;
-    } */
+    } 
 
-    /* html{
-
-        background: url(assets/images/fishnets-and-hearts/fishnets-and-hearts.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-    } */
 .header{
     background: #ffffff;
     color: white;
     margin: 0 auto 0 auto;
-    height: 60px;
+    height: 70px;
     width: 960px;
     position: relative;
     padding-left: 250px;
@@ -30,19 +21,18 @@ html, body {
 }
 
 #header-name{
-    position:relative;
-    width:30%;
-    height: 60px;
+    position:relative; 
+    width:40%;
+    height: 70px;
     float: left;
     vertical-align: middle;
-
 
 }
 
 #header-buttons{
     position:relative;
-    width: 70%;
-    height: 60px;
+    width: 60%;
+    height: 70px;
     float: left;
     text-align: right;
 
@@ -55,15 +45,15 @@ html, body {
     background: url(../images/fishnets-and-hearts/fishnets-and-hearts.png) repeat top left;
     padding-left:25px;
     color: white;
-    margin: 0 auto 0 auto;
+    margin-top: 0 auto 0 auto;
     height: 600px;
     width: 960px;
     position: relative;
+    padding-top: 20px;
     padding-left: 250px;
     padding-right: 250px; 
-    border-style: solid;
-    border-color: black;   
-    border-width: 2px;
+    border-top: solid silver;
+    border-top-width: 1px;
 }
 
 #content-float{
@@ -74,9 +64,9 @@ html, body {
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: auto;
     margin-bottom:auto;
-    line-height: 2;
+    line-height: 1.8;
 
 }
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
@@ -92,7 +82,9 @@ html, body {
 
         color: white;
     }
-
+    .text-silver{
+        color: silver
+    }
     .text-center{
         text-align: center;
     }
@@ -111,4 +103,30 @@ html, body {
     }
     p,div{
         font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    .site-footer, .page-wrap:after {
+        /* .push must be the same height as footer */
+          height: 40px; 
+          }
+      
+    .site-footer-formats{
+
+        background-color: #666666;
+        text-align: center ;
+        border-top: 8px solid #4aaaa5;
+        width: 960px;
+        padding-top: 35px;
+        padding-left: 250px;
+        padding-right: 250px;
+        position: absolute;
+        bottom: 0;
+        bottom: 1px;
+    }
+    
+    img{
+        float: left;
+        padding: 5px;
+        width: 40% ;
+        height: 40%;
+    
     }
