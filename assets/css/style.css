@@ -1,4 +1,4 @@
-/* Some code adapted based on mostly: http://ryanfait.com/sticky-footer/ */
+/* Some code adapted based on mostly: https://css-tricks.com/snippets/css/sticky-footer/ */
 
   * {
     margin: 0;
@@ -7,17 +7,23 @@ html, body {
     height: 100%;
     width:100%;
     } 
-
+/*Header items*/
 .header{
+    /*Main header background color: #ffffff*/
     background: #ffffff;
     color: white;
     margin: 0 auto 0 auto;
     height: 70px;
+    /*The entire content and the main section content area is 960px wide.*/
     width: 960px;
     position: relative;
     padding-left: 250px;
     padding-right: 250px;
     margin-top: 0;
+    /*Main header border color: #cccccc*/
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
 
 }
 
@@ -42,7 +48,7 @@ html, body {
 
 
 }
-
+/*Content items*/
 #content{
 
     background: url(../images/white-waves/white-waves.png) repeat top left;
@@ -50,17 +56,20 @@ html, body {
     color: white;
     margin-top: 0 auto 0 auto;
     height: 600px;
+    /*The entire content and the main section content area is 960px wide.*/
     width: 960px;
     position: relative;
     padding-top: 50px;
     padding-left: 250px;
     padding-right: 250px; 
-    border-top: solid #dddddd;
+    /*Main content border color: #dddddd*/
+    border: solid #dddddd;
     border-top-width: 1px;
 }
 
 #content-float{
-    background-color: white;
+    /*Main content background color: #ffffff*/
+    background-color: #ffffff;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -72,6 +81,27 @@ html, body {
     line-height: 1.8;
 
 }
+/*Footer items*/
+.site-footer, .page-wrap:after {
+    /* .push must be the same height as footer */
+      height: 40px; 
+      }
+  
+.site-footer-formats{
+    /*Footer background color: #666666*/
+    background-color: #666666;
+    text-align: center ;
+    border-top: 8px solid #4aaaa5;
+    /*The entire content and the main section content area is 960px wide.*/    
+    width: 960px;
+    padding-top: 35px;
+    padding-left: 250px;
+    padding-right: 250px;
+    position: absolute;
+    bottom: 0;
+
+}
+/*Various formatting items*/
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
 
     .background-teal{
@@ -99,7 +129,13 @@ html, body {
     color: #777777;
         }
 
-    /*Fonts*/
+    /*Fonts:
+
+For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+*/
 
     h1,h2{
         font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -111,25 +147,7 @@ html, body {
     a{
         text-decoration:none;
     }
-    .site-footer, .page-wrap:after {
-        /* .push must be the same height as footer */
-          height: 40px; 
-          }
-      
-    .site-footer-formats{
 
-        background-color: #666666;
-        text-align: center ;
-        border-top: 8px solid #4aaaa5;
-        width: 960px;
-        padding-top: 35px;
-        padding-left: 250px;
-        padding-right: 250px;
-        position: absolute;
-        bottom: 0;
-  
-    }
-    
     img{
         float: left;
         padding: 10px;
