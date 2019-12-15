@@ -49,7 +49,7 @@ html, body {
     height: 600px;
     width: 960px;
     position: relative;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 250px;
     padding-right: 250px; 
     border-top: solid silver;
@@ -91,7 +91,7 @@ html, body {
 
     /*Regular font color (used for paragraphs and all text besides the headings): #777777*/
 
-    p,div{
+    a,p,div{
 
     color: #777777;
         }
@@ -101,7 +101,7 @@ html, body {
     h1,h2{
         font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
-    p,div{
+    a,p,div{
         font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
     .site-footer, .page-wrap:after {
