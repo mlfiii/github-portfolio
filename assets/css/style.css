@@ -45,8 +45,8 @@ html, body {
 
 #content{
 
-    background: url(../images/fishnets-and-hearts/fishnets-and-hearts.png) repeat top left;
-    padding-left:25px;
+    background: url(../images/white-waves/white-waves.png) repeat top left;
+    padding:25px;
     color: white;
     margin-top: 0 auto 0 auto;
     height: 600px;
@@ -132,8 +132,12 @@ html, body {
     
     img{
         float: left;
-        padding: 5px;
+        padding: 10px;
         width: 40% ;
         height: 40%;
     
+    }
+
+    p{
+        padding: 10px;
     }
