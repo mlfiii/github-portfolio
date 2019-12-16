@@ -7,15 +7,20 @@ html, body {
     height: 100%;
     width:100%;
     } 
-    /* .page-wrap {
+    .page-wrap {
         min-height: 100%;
 
         margin-bottom: -40px; 
-      }    */
-      /* .page-wrap:after {
+      }   
+      .page-wrap:after {
         content: "";
         display: block;
-      } */
+      }
+
+      .site-footer, .page-wrap:after {
+        /* .push must be the same height as footer */
+          height: 40px; 
+          }    
 /*Header items*/
 .header{
     /*Main header background color: #ffffff*/
@@ -91,10 +96,7 @@ html, body {
 
 }
 /*Footer items*/
-.site-footer, .page-wrap:after {
-    /* .push must be the same height as footer */
-      height: 40px; 
-      }
+
   
 .site-footer-formats{
     /*Footer background color: #666666*/
@@ -113,14 +115,14 @@ html, body {
 /*Various formatting items*/
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
 
-    .background-teal{
+    button,.background-teal{
         background-color: #4aaaa5;
     }
 
     h2,.text-teal{
         color: #4aaaa5;
     }
-    .text-white{
+    button,.text-white{
 
         color: white;
     }
@@ -140,16 +142,16 @@ html, body {
 
     /*Fonts:
 
-For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
+        For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
 
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-*/
+        */
 
     h1,h2{
         font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
-    a,p,div{
+    a,p,div,button{
         font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
@@ -168,3 +170,35 @@ For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     p{
         padding: 10px;
     }
+
+    /*Contact Page*/
+
+    input {
+        width: 100%;
+      }
+
+      #content-message{
+          height: 300px;
+      }
+
+ 
+
+      .content-submit-button {
+        background-color: #4aaaa5;
+        padding: 10px 20px 10px 20px;
+      }
+
+      #contact-content-float{
+            /*Main content background color: #ffffff*/
+            background-color: #ffffff;
+            padding:20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom:auto;
+            line-height: 1.8;
+
+
+      }
+
+
