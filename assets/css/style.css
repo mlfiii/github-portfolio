@@ -1,216 +1,207 @@
 /* Some code adapted based on mostly: https://css-tricks.com/snippets/css/sticky-footer/ */
 
-  * {
-    margin: 0;
-    } 
-html, body {
-    height: 100%;
-    width:100%;
-    } 
-    .page-wrap {
-        min-height: 100%;
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.page-wrap {
+  min-height: 100%;
 
-        margin-bottom: -40px; 
-      }   
-      .page-wrap:after {
-        content: "";
-        display: block;
-      }
+  margin-bottom: -40px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
 
-      .site-footer, .page-wrap:after {
-        /* .push must be the same height as footer */
-          height: 40px; 
-          }    
+.site-footer,
+.page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 40px;
+}
 /*Header items*/
-.header{
-    /*Main header background color: #ffffff*/
-    background: #ffffff;
-    color: white;
-    margin: 0 auto 0 auto;
-    height: 70px;
-    /*The entire content and the main section content area is 960px wide.*/
-    width: 960px;
-    position: relative;
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-top: 0;
-    /*Main header border color: #cccccc*/
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-
+.header {
+  /*Main header background color: #ffffff*/
+  background: #ffffff;
+  color: white;
+  margin: 0 auto 0 auto;
+  height: 70px;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 960px;
+  position: relative;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: 0;
+  /*Main header border color: #cccccc*/
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
 }
 
-#header-name{
-    position:relative; 
-    padding-top: 20px;
-    width:40%;
-    height: 70px;
-    float: left;
-    vertical-align: middle;
-
+#header-name {
+  position: relative;
+  padding-top: 20px;
+  width: 40%;
+  height: 70px;
+  float: left;
+  vertical-align: middle;
 }
 
-#header-buttons{
-    position:relative;
-    padding-top: 20px;
-    width: 60%;
-    height: 70px;
-    float: left;
-    text-align: right;
-
-
-
+#header-buttons {
+  position: relative;
+  padding-top: 20px;
+  width: 60%;
+  height: 70px;
+  float: left;
+  text-align: right;
 }
 /*Content items*/
-#content{
-
-    background: url(../images/white-waves/white-waves.png) repeat top left;
-    padding:25px;
-    color: white;
-    margin-top: 0 auto 0 auto;
-    height: 600px;
-    /*The entire content and the main section content area is 960px wide.*/
-    width: 960px;
-    position: relative;
-    padding-top: 30px;
-    padding-left: 250px;
-    padding-right: 250px; 
-    /*Main content border color: #dddddd*/
-    border: solid #dddddd;
-    border-top-width: 1px;
+#content {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  padding: 25px;
+  color: white;
+  margin-top: 0 auto 0 auto;
+  height: 600px;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 960px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-top-width: 1px;
 }
 
-#content-float{
-    /*Main content background color: #ffffff*/
-    background-color: #ffffff;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom:auto;
-    line-height: 1.8;
-    height:500px;
-
+#content-float {
+  /*Main content background color: #ffffff*/
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.8;
+  height: 500px;
 }
 
-#contact-content{
-
-    background: url(../images/white-waves/white-waves.png) repeat top left;
-    padding:25px;
-    color: white;
-    margin-top: 0 auto 0 auto;
-    height: 600px;
-    /*The entire content and the main section content area is 960px wide.*/
-    width: 960px;
-    position: relative;
-    padding-top: 30px;
-    padding-left: 250px;
-    padding-right: 250px; 
-    /*Main content border color: #dddddd*/
-    border: solid #dddddd;
-    border-top-width: 1px;
+#contact-content {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  padding: 25px;
+  color: white;
+  margin-top: 0 auto 0 auto;
+  height: 600px;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 960px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-top-width: 1px;
 }
 
-#contact-content-float{
-    /*Main content background color: #ffffff*/
-    background-color: #ffffff;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom:auto;
-    line-height: 1.8;
-    height:500px;
-
+#contact-content-float {
+  /*Main content background color: #ffffff*/
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.8;
+  height: 500px;
 }
 
-
-#portfolio-content{
-
-    background: url(../images/white-waves/white-waves.png) repeat top left;
-    padding:25px;
-    color: white;
-    margin-top: 0 auto 0 auto;
-    height: 1000px;
-    /*The entire content and the main section content area is 960px wide.*/
-    width: 960px;
-    position: relative;
-    padding-top: 30px;
-    padding-left: 250px;
-    padding-right: 250px; 
-    /*Main content border color: #dddddd*/
-    border: solid #dddddd;
-    border-top-width: 1px;
+#portfolio-content {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  padding: 25px;
+  color: white;
+  margin-top: 0 auto 0 auto;
+  height: 1000px;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 960px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-top-width: 1px;
 }
 
-#portfolio-content-float{
-    /*Main content background color: #ffffff*/
-    background-color: #ffffff;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom:auto;
-    line-height: 1.8;
-    height:950px;
-
+#portfolio-content-float {
+  /*Main content background color: #ffffff*/
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.8;
+  height: 950px;
 }
 /*Footer items*/
 
-  
-.site-footer-formats{
-    /*Footer background color: #666666*/
-    background-color: #666666;
-    text-align: center ;
-    border-top: 8px solid #4aaaa5;
-    /*The entire content and the main section content area is 960px wide.*/    
-    width: 960px;
-    padding-top: 35px;
-    padding-left: 250px;
-    padding-right: 250px;
-    position: fixed;
-    bottom: 0;
-
+.site-footer-formats {
+  /*Footer background color: #666666*/
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 960px;
+  padding-top: 35px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: fixed;
+  bottom: 0;
 }
 /*Various formatting items*/
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
 
-    button,.background-teal{
-        background-color: #4aaaa5;
-    }
+button,
+.background-teal {
+  background-color: #4aaaa5;
+}
 
-    h2,.text-teal{
-        color: #4aaaa5;
-    }
-    button,.text-white{
+h2,
+.text-teal {
+  color: #4aaaa5;
+}
+button,
+.text-white {
+  color: white;
+}
+.text-silver {
+  color: silver;
+}
+.text-center {
+  text-align: center;
+}
 
-        color: white;
-    }
-    .text-silver{
-        color: silver
-    }
-    .text-center{
-        text-align: center;
-    }
+/*Regular font color (used for paragraphs and all text besides the headings): #777777*/
 
-    /*Regular font color (used for paragraphs and all text besides the headings): #777777*/
+a,
+p,
+div {
+  color: #777777;
+}
 
-    a,p,div{
-
-    color: #777777;
-        }
-
-    /*Fonts:
+/*Fonts:
 
         For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
 
@@ -218,137 +209,136 @@ html, body {
 
         */
 
-    h1,h2{
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
-    }
-    a,p,div,button{
-        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    }
+h1,
+h2 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+}
+a,
+p,
+div,
+button {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
 
-    a{
-        text-decoration:none;
-    }
-    button{
+a {
+  text-decoration: none;
+}
+button {
+  font-size: 18px;
+  margin-top: 5px;
+}
+img {
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: 40%;
+}
 
-        font-size: 18px;
-        margin-top: 5px;
-    }
-    img{
-        float: left;
-        padding: 10px;
-        width: 40% ;
-        height: 40%;
-    
-    }
+p {
+  padding: 10px;
+}
 
-    p{
-        padding: 10px;
-    }
+/*Contact Page*/
 
-    /*Contact Page*/
+input {
+  width: 100%;
+}
 
-    input {
-        width: 100%;
-      }
+#content-message {
+  height: 230px;
+}
 
-      #content-message{
-          height: 230px;
-      }
+.content-submit-button {
+  background-color: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+}
 
- 
+#contact-content-float {
+  /*Main content background color: #ffffff*/
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.8;
+}
 
-      .content-submit-button {
-        background-color: #4aaaa5;
-        padding: 10px 20px 10px 20px;
-      }
-
-      #contact-content-float{
-            /*Main content background color: #ffffff*/
-            background-color: #ffffff;
-            padding:20px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            margin-bottom:auto;
-            line-height: 1.8;
-
-
-      }
-
-
-
-.portfolio-image{
-
-    height:100%;
-
+.portfolio-image {
+  height: 100%;
+  width: 100%;
 }
 .portfolio-picture-container {
-    position: relative;
-    width: 950px;
-    height: 500px;
-    background:  #ffffff;
-    flex-wrap:wrap;
-    display: flex;
-
-  }
-  
-.picture-1-section{
-    position: relative;
-    width: 350px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+  position: relative;
+  width: 950px;
+  height: 500px;
+  background: #ffffff;
+  flex-wrap: wrap;
+  display: flex;
 }
 
-.picture-2-section{
-    position: relative;
-    width: 350px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+.picture-1-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.picture-3-section{
-    position: relative;
-    width: 350px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+.picture-2-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.picture-4-section{
-    position: relative;
-    width: 350px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+.picture-3-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.picture-5-section{
-    position: relative;
-    width: 350px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
+.picture-4-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
-  .portfolio-label {
-    position: absolute;
-    width: 200px;
-    height: 40px;
-    background: #4aaaa5;
-    padding-top: 10px;
-  }
-  
-  .portfolio-picture-1 {
-    /* top: 10px;
+
+.picture-5-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.portfolio-label {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background: #4aaaa5;
+  padding-top: 10px;
+}
+
+.portfolio-picture-1 {
+  /* top: 10px;
     left: 10px; */
-    width: 100%;
-  }
-  
-  .portfolio-picture-label {
-    top: 200px;
-    left: 10px;
-    width: 100%;
+  width: 100%;
+  height: 100%;
+}
 
-  }
+.portfolio-picture-label {
+  top: 180px;
+  left: 10px;
+  width: 100%;
+}
 
+.portfolio-picture-label-row-2 {
+  top: 180px;
+  left: 10px;
+  width: 100%;
+}
