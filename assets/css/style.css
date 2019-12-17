@@ -96,6 +96,75 @@ html, body {
     height:500px;
 
 }
+
+#contact-content{
+
+    background: url(../images/white-waves/white-waves.png) repeat top left;
+    padding:25px;
+    color: white;
+    margin-top: 0 auto 0 auto;
+    height: 600px;
+    /*The entire content and the main section content area is 960px wide.*/
+    width: 960px;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px; 
+    /*Main content border color: #dddddd*/
+    border: solid #dddddd;
+    border-top-width: 1px;
+}
+
+#contact-content-float{
+    /*Main content background color: #ffffff*/
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+    line-height: 1.8;
+    height:500px;
+
+}
+
+
+#portfolio-content{
+
+    background: url(../images/white-waves/white-waves.png) repeat top left;
+    padding:25px;
+    color: white;
+    margin-top: 0 auto 0 auto;
+    height: 1000px;
+    /*The entire content and the main section content area is 960px wide.*/
+    width: 960px;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px; 
+    /*Main content border color: #dddddd*/
+    border: solid #dddddd;
+    border-top-width: 1px;
+}
+
+#portfolio-content-float{
+    /*Main content background color: #ffffff*/
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom:auto;
+    line-height: 1.8;
+    height:950px;
+
+}
 /*Footer items*/
 
   
@@ -159,7 +228,11 @@ html, body {
     a{
         text-decoration:none;
     }
+    button{
 
+        font-size: 18px;
+        margin-top: 5px;
+    }
     img{
         float: left;
         padding: 10px;
@@ -179,7 +252,7 @@ html, body {
       }
 
       #content-message{
-          height: 300px;
+          height: 230px;
       }
 
  
@@ -201,4 +274,81 @@ html, body {
 
 
       }
+
+
+
+.portfolio-image{
+
+    height:100%;
+
+}
+.portfolio-picture-container {
+    position: relative;
+    width: 950px;
+    height: 500px;
+    background:  #ffffff;
+    flex-wrap:wrap;
+    display: flex;
+
+  }
+  
+.picture-1-section{
+    position: relative;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.picture-2-section{
+    position: relative;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.picture-3-section{
+    position: relative;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.picture-4-section{
+    position: relative;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.picture-5-section{
+    position: relative;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+  .portfolio-label {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background: #4aaaa5;
+    padding-top: 10px;
+  }
+  
+  .portfolio-picture-1 {
+    /* top: 10px;
+    left: 10px; */
+    width: 100%;
+  }
+  
+  .portfolio-picture-label {
+    top: 200px;
+    left: 10px;
+    width: 100%;
+
+  }
 
