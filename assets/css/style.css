@@ -254,10 +254,13 @@ p {
 
 input {
   width: 100%;
+  /* text-align: start; */
 }
 
 #content-message {
   height: 230px;
+  width: 100%;
+  /* text-align: start; */
 }
 
 .content-submit-button {
