@@ -254,6 +254,8 @@ p {
 
 input {
   width: 100%;
+  line-height: 2;
+  /* padding-left: 10px; */
   /* text-align: start; */
 }
 
@@ -355,4 +357,25 @@ input {
   top: 180px;
   left: 10px;
   width: 100%;
+}
+
+/*Psudo classes*/
+/* unvisited link */
+a:link {
+  color: #777777;
+}
+
+/* visited link */
+a:visited {
+  color: #777777;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
