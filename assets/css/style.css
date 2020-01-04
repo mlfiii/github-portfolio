@@ -183,7 +183,8 @@ h2,
   color: #4aaaa5;
 }
 button,
-.text-white {
+.text-white,
+footer {
   color: white;
 }
 .text-silver {
